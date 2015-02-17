@@ -14,7 +14,6 @@
 #include <float.h>
 #include "arial40all.h"
 #include "septa.h"
-#include "comcast.h"
 #include "ietf.h"
 
 /* =================================

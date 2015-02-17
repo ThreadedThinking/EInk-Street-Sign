@@ -1,4 +1,4 @@
-# E-Ink-Street-Sign - Econotag
+# E-Ink Street Sign - Econotag
 SEPTA Smart City Street Sign
 By: Alexander Roscoe, Drew Taylor and Colin Weir
 

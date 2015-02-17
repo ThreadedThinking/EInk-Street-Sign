@@ -14,7 +14,7 @@ The sign connects through an IPv6 internet connection based around a Raspberry P
 
 ![E-Ink Display](https://raw.githubusercontent.com/ThreadedThinking/EInk-Street-Sign/master/SEPTA_E-Ink.jpg)
 ![Adaptor Board Back](https://raw.githubusercontent.com/ThreadedThinking/EInk-Street-Sign/master/adaptor_board_back.jpg)
-
+![PCB](https://raw.githubusercontent.com/ThreadedThinking/EInk-Street-Sign/master/pcb.jpg)
 # Credits and Links
 Petteri Aimonen wrote a very good writeup on how to drive the screen.
 http://essentialscrap.com/eink/software.html

@@ -7,7 +7,7 @@ This github repository includes eink drivers for a Redwire Econotag.  This proje
 #Hardware
 An electrophoretic display was chosen as it can hold an image without a power and it requires very little energy to update. The screen is based on an LB060S01-RD02.  It is powered right from the econotag.
 
-The radio uses the erbium client firmware from the Contiki OS.  This reaches out to a CoAP server to retrieve transit information. I used the econotag from Redwire as it had the most pins available to drive the screen.  The econotag has the ability to fall asleep in a lower power mode and wake up to update the display.  Because the screen and radio require very little energy, energy harvesting would be an ideal power source for perpetual operation.  The one limitition with the econotag was the flash size.  High quality fonts take up a lot of space.
+The radio uses the erbium client firmware from the Contiki OS.  This reaches out to a CoAP server to retrieve transit information. We used the econotag from Redwire as it had the most pins available to drive the screen.  The econotag has the ability to fall asleep in a lower power mode and wake up to update the display.  Because the screen and radio require very little energy, energy harvesting would be an ideal power source for perpetual operation.  The one limitition with the econotag was the flash size.  High quality fonts take up a lot of space.
 
 The sign connects through an IPv6 internet connection based around a Raspberry Pi running 6lbr.  This border gateway passes CoAP requests from the sign to a CoAP server that proxied the requests to SEPTA's transit API.
 

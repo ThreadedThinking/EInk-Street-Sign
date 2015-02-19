@@ -6,11 +6,11 @@ This github repository includes eink drivers for a Redwire Econotag.  This proje
 
 ## Bill of Materials
 
-E-ink display - LB060S01
-Wireless Radio/MCU - Econotag - http://www.redwirellc.com/collections/frontpage/products/econotag-ii
-E-ink Power Supply EVM - Texas Instruments TPS65185 - http://www.ti.com/tool/tps65185evm
-Ribbon Connector - Hirose FH26-39S-0.3SHW
-PCB - Just upload the PCB design file to oshpark.com, you should have it back in 2 weeks
+  * E-ink display - LB060S01
+  * Wireless Radio/MCU - Econotag - http://www.redwirellc.com/collections/frontpage/products/econotag-ii
+  * E-ink Power Supply EVM - Texas Instruments TPS65185 - http://www.ti.com/tool/tps65185evm
+  * Ribbon Connector - Hirose FH26-39S-0.3SHW
+  * PCB - Just upload the PCB design file to oshpark.com, you should have it back in 2 weeks
 
 #Hardware
 An electrophoretic display was chosen as it can hold an image without a power and it requires very little energy to update. The screen is based on an LB060S01-RD02.  It is powered from a Texas Instruments TPS65185 power supply,  it was only $10 for a development board next-day shipped.  It provided two high efficiency DC/DC boost converters generate ±16-V rails which are boosted to 22 V and –20 V. It also has two tracking LDOs create the ±15-V source driver supplies.  I didn't have to design any of that which made this project plug-N-play. All we had to do was adapt the write delays in the driver to compensate for the clock in the econotag.
